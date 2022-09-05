@@ -52,5 +52,5 @@ def test_hello_displays_expected_message():
     result: Result = runner.invoke(cli.cli, ["hello"])
     # fmt: off
     assert 'mysupercliproject' in result.output.strip(), \
-        "'Hello' messages should contain the CLI name."
+        "'Hello' messages should contain the CLI names."
     # fmt: on
