@@ -47,6 +47,7 @@ class Mock(MagicMock):
 MOCK_MODULES = [
     "numpy",
     "scipy",
+    "pandas"
     "sklearn",
     "matplotlib",
     "matplotlib.pyplot",
