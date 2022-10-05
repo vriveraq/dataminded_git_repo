@@ -41,7 +41,7 @@ class Info(object):
 
 # pass_info is a decorator for functions that pass 'Info' objects.
 #: pylint: disable=invalid-name
-pass_info = click.make_pass_decorator(Info, ensure=True)
+pass_info = click.make_pass_decorator(Info, ensure=False)
 
 
 # Change the options to below to suit the actual options for your task (or
