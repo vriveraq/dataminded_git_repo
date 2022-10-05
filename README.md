@@ -1,6 +1,7 @@
 # mysupercliproject
 
 This is my click command-line app project.
+Isn't it nice ?
 
 ## Project Features
 
