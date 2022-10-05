@@ -9,7 +9,6 @@ This file is used to create the package we'll publish to PyPI.
 """
 
 import importlib.util
-import os
 from pathlib import Path
 from setuptools import setup, find_packages
 from codecs import open  # Use a consistent encoding.

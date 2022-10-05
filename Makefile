@@ -11,10 +11,10 @@ build:
 	pip install --editable .
 
 run:
-	$(CLI_NAME) run
+	$(CLI_Last_NAME) run
 
 submit:
-	$(CLI_NAME) submit
+	$(CLI_Last_NAME) submit
 
 freeze:
 	pip freeze > requirements.txt
