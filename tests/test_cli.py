@@ -49,7 +49,7 @@ def test_hello_displays_expected_message():
     Assert:  The output matches the library version.
     """
     runner: CliRunner = CliRunner()
-    result: Result = runner.invoke(cli.cli, ["hello"])
+    result: Result = runner.invoke(cli.cli, ["hola"])
     # fmt: off
     assert 'mysupercliproject' in result.output.strip(), \
         "'Hello' messages should contain the CLI name."

@@ -51,7 +51,7 @@ def test_ab_addSquares_equalsC(a, b, c):
     :param c: the result of adding the squares of a and b
     """
     assert (
-        a * a + b * b == c,
+        a * a + b * b + a== c,
         "'c' should be the sum of the squares of 'a' and 'b'. "
         "This is an example test and can be removed.",
     )
