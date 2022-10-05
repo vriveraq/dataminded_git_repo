@@ -86,3 +86,5 @@ setup(
     ],
     include_package_data=True
 )
+
+print("This is the setup.py file.")
