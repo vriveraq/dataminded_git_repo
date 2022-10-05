@@ -17,6 +17,7 @@ It can be used as a handy facility for running the task from a command line.
 
 .. currentmodule:: mysupercliproject.cli
 .. moduleauthor:: Nathan Derave <nathan.derave@dataminded.be>
+.. change from Sarah on 20221005
 """
 import logging
 import click
