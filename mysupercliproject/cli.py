@@ -72,7 +72,7 @@ def cli(info: Info, verbose: int):
 @pass_info
 def hello(_: Info):
     """Say 'hello' to the nice people."""
-    click.echo("mysupercliproject says 'hello'")
+    click.echo("mysupercliproject says 'hello y\'all'")
 
 
 @cli.command()
