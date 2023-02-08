@@ -5,7 +5,7 @@
 
 .. _using-the-makefile:
 
-Using the `Makefile`
+Using the `Makefile` 1
 ====================
 
 This project includes a `Makefile <https://www.gnu.org/software/make/>`_
