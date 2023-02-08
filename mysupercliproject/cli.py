@@ -28,6 +28,7 @@ LOGGING_LEVELS = {
     2: logging.WARN,
     3: logging.INFO,
     4: logging.DEBUG,
+    5: logging.STOP,
 }  #: a mapping of `verbose` option counts to logging levels
 
 
