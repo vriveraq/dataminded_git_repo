@@ -9,4 +9,4 @@ This module contains project version information.
 """
 
 __version__ = "9.9.9"  #: the working version
-__release__ = "0.0.1"  #: the release version
+__release__ = "0.0.2"  #: the release version
